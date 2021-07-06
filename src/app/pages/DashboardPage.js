@@ -1,5 +1,6 @@
 import React from "react";
 import Inputs from "../../_metronic/layout/components/dashboard/Inputs";
+import MediaCards from "../../_metronic/layout/components/dashboard/MediaCards";
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -14,6 +15,7 @@ export function DashboardPage() {
     <>
       <h1 className={classes.center}>Wyszukiwarka</h1>
       <Inputs />
+      <MediaCards />
     </>
   );
 }

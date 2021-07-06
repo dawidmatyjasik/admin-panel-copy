@@ -60,7 +60,6 @@ export default function OutlinedTextFields() {
         onChange={handleChange}
         margin="normal"
         variant="outlined"
-        type="projekt"
       />
       <TextField
         id="id"
