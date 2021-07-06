@@ -18,6 +18,10 @@ export function AsideMenuList({ layoutProps }) {
   return (
     <>
       <ul className={`menu-nav ${layoutProps.ulClasses}`}>
+        <li className="menu-section ">
+          <h4 className="menu-text">Zarządzanie</h4>
+          <i className="menu-icon flaticon-more-v2"></i>
+        </li>
         <li
           className={`menu-item ${getMenuItemActive("/my-page")}`}
           aria-haspopup="true"
