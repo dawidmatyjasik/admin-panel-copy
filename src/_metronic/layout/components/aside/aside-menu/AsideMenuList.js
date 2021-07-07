@@ -23,14 +23,14 @@ export function AsideMenuList({ layoutProps }) {
           <i className="menu-icon flaticon-more-v2"></i>
         </li>
         <li
-          className={`menu-item ${getMenuItemActive("/my-page")}`}
+          className={`menu-item ${getMenuItemActive("/edytuj")}`}
           aria-haspopup="true"
         >
-          <NavLink className="menu-link" to="/my-page">
+          <NavLink className="menu-link" to="/edytuj">
             <span className="svg-icon menu-icon">
               <SVG src={toAbsoluteUrl("/media/svg/icons/Design/Layers.svg")} />
             </span>
-            <span className="menu-text">My Page</span>
+            <span className="menu-text">Edytuj profil</span>
           </NavLink>
         </li>
         <li className="menu-section ">

@@ -11,11 +11,11 @@ export default function BasePage() {
       <Switch>
         {
           /* Redirect from root URL to /dashboard. */
-          <Redirect exact from="/" to="/dashboard" />
+          <Redirect exact from="/" to="/admin" />
         }
-        <ContentRoute path="/dashboard" component={DashboardPage} />
+        <ContentRoute path="/admin" component={DashboardPage} />
         <ContentRoute path="/builder" component={BuilderPage} />
-        <ContentRoute path="/my-page" component={MyPage} />
+        <ContentRoute path="/edytuj" component={MyPage} />
         <Redirect to="error/error-v1" />
       </Switch>
     </Suspense>
